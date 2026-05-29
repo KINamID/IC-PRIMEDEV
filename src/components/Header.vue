@@ -6,9 +6,9 @@
       <RouterLink to="/" class="flex items-center gap-4 group flex-shrink-0">
         <div class="relative">
           <img
-            src="/public/Logo Digimon.png"
+            src="/public/Logo Digimon v2 nobg.png"
             alt="DigiCenter Logo"
-            class="h-12 sm:h-30 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
+            class="h-12 sm:h-15 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
           />
         </div>
         <div class="flex flex-col">
@@ -47,17 +47,17 @@
         </RouterLink>
 
         <RouterLink
-          to="/Moves"
+          to="/Stats"
           class="relative px-4 py-2 text-sm font-bold uppercase tracking-wider transition-colors duration-300 group/nav"
           :class="[
-            $route.path.includes('/Moves') ? 'text-blue-600' : 'text-gray-500 hover:text-blue-600',
+            $route.path.includes('/Stats') ? 'text-blue-600' : 'text-gray-500 hover:text-blue-600',
           ]"
         >
           Stats
           <span
             class="absolute bottom-0 left-4 right-4 h-[2px] bg-blue-600 transition-transform duration-300 origin-left"
             :class="[
-              $route.path.includes('/Moves')
+              $route.path.includes('/Stats')
                 ? 'scale-x-100'
                 : 'scale-x-0 group-hover/nav:scale-x-100',
             ]"
@@ -156,16 +156,16 @@
         </RouterLink>
 
         <RouterLink
-          to="/Moves"
+          to="/Stats"
           @click="isMenuOpen = false"
           class="flex items-center justify-between px-4 py-3 rounded-xl text-base font-['Share_Tech_Mono'] font-bold transition-all"
           :class="[
-            $route.path.includes('/Moves')
+            $route.path.includes('/Stats')
               ? 'text-blue-600 bg-blue-50/50'
               : 'text-gray-600 hover:text-blue-600 hover:bg-gray-50',
           ]"
         >
-          Moves
+          Stats
           <span class="text-xs opacity-50">→</span>
         </RouterLink>
 

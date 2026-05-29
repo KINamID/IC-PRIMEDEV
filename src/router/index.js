@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import DigimonView from '@/views/DigimonView.vue'
 import EvolutionView from '@/views/EvolutionView.vue'
 import CommunityView from '@/views/CommunityView.vue'
-import MoveView from '@/views/MoveView.vue'
+import StatsView from '@/views/StatsView.vue'
 
 const routes = [
   {
@@ -23,8 +23,8 @@ const routes = [
     component: CommunityView,
   },
   {
-    path: '/Moves',
-    component: MoveView,
+    path: '/Stats/:id?',
+    component: StatsView,
   },
 ]
 

@@ -35,7 +35,7 @@
             >Evolution</RouterLink
           >
           <RouterLink
-            to="/Moves"
+            to="/Stats"
             class="text-xs font-bold uppercase tracking-widest text-gray-400 hover:text-blue-500 transition-colors"
             >Stats</RouterLink
           >

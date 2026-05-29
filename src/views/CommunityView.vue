@@ -24,7 +24,7 @@
             <h3
               class="text-sm font-bold text-blue-600 uppercase tracking-wider mb-4 border-b border-gray-100 pb-2"
             >
-              🛰️ Channel Sectors
+              Channel Sectors
             </h3>
             <div class="flex flex-col gap-2">
               <button
@@ -36,7 +36,7 @@
                     : 'bg-gray-50 text-gray-500 border-transparent hover:bg-gray-100 hover:text-gray-900',
                 ]"
               >
-                🌐 All Transmissions
+                All Transmissions
               </button>
               <button
                 v-for="cat in categories"
@@ -64,7 +64,7 @@
             <h3
               class="text-sm font-bold text-gray-800 uppercase tracking-wider border-b border-gray-100 pb-2"
             >
-              📟 Terminal Status
+              Terminal Status
             </h3>
             <div class="flex justify-between">
               <span>Online Tamers:</span
@@ -126,7 +126,7 @@
                 type="submit"
                 class="px-5 py-2 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold text-xs uppercase tracking-widest rounded-xl transition-colors shadow-sm border border-blue-500"
               >
-                ⚡ Transmit
+                Transmit
               </button>
             </div>
           </form>
@@ -148,8 +148,8 @@
             >
               <div class="flex items-center justify-between text-xs border-b border-gray-100 pb-3">
                 <div class="flex items-center gap-3">
-                  <span class="font-bold text-blue-600 uppercase tracking-wide"
-                    >📡 {{ post.author }}</span
+                  <span class="font-bold text-blue-600 uppercase tracking-wide">
+                    {{ post.author }}</span
                   >
                   <span class="text-gray-300">•</span>
                   <span class="text-gray-400">{{ post.timestamp }}</span>
@@ -173,18 +173,18 @@
                   @click="likePost(post)"
                   class="flex items-center gap-1.5 hover:text-rose-500 transition-colors group"
                 >
-                  <span>❤️</span>
+                  <span></span>
                   <span class="font-bold text-gray-500 group-hover:text-rose-500"
-                    >{{ post.likes }} Cryptos</span
+                    >{{ post.likes }} Like</span
                   >
                 </button>
                 <button
                   @click="post.showComments = !post.showComments"
                   class="flex items-center gap-1.5 hover:text-blue-600 transition-colors"
                 >
-                  <span>💬</span>
+                  <span></span>
                   <span class="font-bold text-gray-500 hover:text-blue-600"
-                    >{{ post.comments.length }} Decodes</span
+                    >{{ post.comments.length }} Comment</span
                   >
                 </button>
               </div>
@@ -205,7 +205,7 @@
                     <div
                       class="flex justify-between font-bold text-blue-600 mb-1 uppercase text-[10px]"
                     >
-                      <span>⚡ {{ comment.user }}</span>
+                      <span> {{ comment.user }}</span>
                       <span class="text-gray-400 font-normal">{{ comment.time }}</span>
                     </div>
                     <p class="text-gray-600 font-sans leading-relaxed">{{ comment.text }}</p>
@@ -248,10 +248,10 @@ import { ref, computed } from 'vue'
 const selectedCategory = ref('All')
 
 const categories = ref([
-  { name: 'Guides', icon: '📖' },
-  { name: 'Events', icon: '🏆' },
-  { name: 'Raids', icon: '⚔️' },
-  { name: 'Guilds', icon: '🛡️' },
+  { name: 'Guides', icon: '' },
+  { name: 'Events', icon: '' },
+  { name: 'Raids', icon: '' },
+  { name: 'Guilds', icon: '' },
 ])
 
 const newPost = ref({

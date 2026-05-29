@@ -36,16 +36,18 @@
       </p>
 
       <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12">
-        <button
+        <RouterLink
+          to="/Evolution"
           class="min-w-64 px-8 py-4 text-sm font-['Press_Start_2P'] tracking-wider text-white bg-blue-600 hover:bg-blue-700 rounded-md shadow-[0_5px_15px_rgba(37,99,235,0.4)] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(37,99,235,0.6)] uppercase"
         >
           Mulai Petualangan
-        </button>
-        <button
+        </RouterLink>
+        <RouterLink
+          to="/AllDigimon"
           class="min-w-64 px-8 py-4 text-sm font-['Press_Start_2P'] tracking-wider text-blue-200 bg-transparent border-2 border-blue-500/50 hover:bg-blue-900/30 rounded-md transition-all duration-300 transform hover:-translate-y-1 uppercase"
         >
-          Lihat Basis Data
-        </button>
+          Lihat Digimon
+        </RouterLink>
       </div>
     </div>
   </div>

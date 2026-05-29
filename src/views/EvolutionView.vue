@@ -10,7 +10,7 @@
         <h2
           class="mt-4 text-3xl md:text-4xl font-['Orbitron'] font-black tracking-tight text-gray-900 uppercase"
         >
-          DigiEgg Evolution Matrix
+          DigiEgg Evolution Tree
         </h2>
         <p class="text-gray-500 mt-2 text-sm">
           Select a DigiEgg to initialize the evolutionary tree sequence.
@@ -245,20 +245,20 @@ const selectedDigimon = ref(null)
 const digiEggs = ref([
   {
     id: 'blue',
-    name: 'Nature DigiEgg',
+    name: 'Blue DigiEgg',
     image: eggBlue,
     tree: {
       babyI: {
         name: 'Punimon',
         stage: 'Baby I (Fresh)',
         image: 'https://digi-api.com/images/digimon/w/Punimon.png',
-        reqs: { min_level: 'Lv. 1', care_mistakes: '0-1 Time', training_points: '8+ Points' },
+        reqs: { care_mistakes: '0-1 Time', training_points: '8+ Points' },
       },
       babyII: {
         name: 'Tsunomon',
         stage: 'Baby II (In-Training)',
-        image: 'https://digi-api.com/images/digimon/w/Tsunomon.png',
-        reqs: { min_level: 'Lv. 5', min_speed: '30 SPD', friendship: '75%+' },
+        image: 'https://digi-api.com/images/digimon/w/Tunomon.png',
+        reqs: { min_speed: '30 SPD', friendship: '75%+' },
       },
       rookies: [
         {
@@ -266,37 +266,36 @@ const digiEggs = ref([
           stage: 'Rookie',
           image: 'https://digi-api.com/images/digimon/w/Gabumon.png',
           reqs: {
-            min_level: 'Lv. 10',
-            attack_power: '70 ATK',
-            win_rate: '55%+',
-            friendship: '80%+',
+            HP: 'Focus on HP growth (300+ HP)',
+            win_battle: '10 or more battles',
+            friendship: 'friendship higher',
           },
         },
         {
           name: 'Psychemon',
           stage: 'Rookie',
           image: 'https://digi-api.com/images/digimon/w/Psychemon.png',
-          reqs: { min_level: 'Lv. 10', mutant_exp: '40+ PTS', care_mistakes: '3+ Times' },
+          reqs: { min_attack: '200+', care_mistakes: '3+ Times' },
         },
       ],
     },
   },
   {
     id: 'yellow',
-    name: 'Holy DigiEgg',
+    name: 'Yellow DigiEgg',
     image: eggYellow,
     tree: {
       babyI: {
         name: 'Botamon',
         stage: 'Baby I (Fresh)',
         image: 'https://digi-api.com/images/digimon/w/Botamon.png',
-        reqs: { min_level: 'Lv. 1', care_mistakes: '0-2 Times', training_points: '10+ Points' },
+        reqs: { care_mistakes: '0-2 Times', training_points: '10+ Points' },
       },
       babyII: {
         name: 'Koromon',
         stage: 'Baby II (In-Training)',
         image: 'https://digi-api.com/images/digimon/w/Koromon.png',
-        reqs: { min_level: 'Lv. 5', min_attack: '35 ATK', happiness: '80%+' },
+        reqs: { min_attack: '35 ATK', happiness: '80%+' },
       },
       rookies: [
         {
@@ -304,7 +303,6 @@ const digiEggs = ref([
           stage: 'Rookie',
           image: 'https://digi-api.com/images/digimon/w/Agumon.png',
           reqs: {
-            min_level: 'Lv. 10',
             attack_power: '75 ATK',
             win_rate: '50%+',
             care_mistakes: 'Under 3',
@@ -313,9 +311,8 @@ const digiEggs = ref([
         {
           name: 'ToyAgumon',
           stage: 'Rookie',
-          image: 'https://digi-api.com/images/digimon/w/ToyAgumon.png',
+          image: 'https://digi-api.com/images/digimon/w/Clear_Agumon.png',
           reqs: {
-            min_level: 'Lv. 10',
             defense_power: '65 DEF',
             tech_score: '40+ PTS',
             care_mistakes: '4+ Times',
@@ -326,20 +323,20 @@ const digiEggs = ref([
   },
   {
     id: 'red',
-    name: 'Dragon DigiEgg',
+    name: 'Red DigiEgg',
     image: eggRed,
     tree: {
       babyI: {
         name: 'Jyarimon',
         stage: 'Baby I (Fresh)',
         image: 'https://digi-api.com/images/digimon/w/Jyarimon.png',
-        reqs: { min_level: 'Lv. 1', training_points: '15+ Points', care_mistakes: '0-1 Time' },
+        reqs: { training_points: '15+ Points', care_mistakes: '0-1 Time' },
       },
       babyII: {
         name: 'Gigimon',
         stage: 'Baby II (In-Training)',
         image: 'https://digi-api.com/images/digimon/w/Gigimon.png',
-        reqs: { min_level: 'Lv. 6', min_attack: '45 ATK', combat_exp: '100+' },
+        reqs: { min_attack: '45 ATK', combat_exp: '100+' },
       },
       rookies: [
         {
@@ -347,37 +344,36 @@ const digiEggs = ref([
           stage: 'Rookie',
           image: 'https://digi-api.com/images/digimon/w/Guilmon.png',
           reqs: {
-            min_level: 'Lv. 12',
             attack_power: '90 ATK',
             win_rate: '65%+',
             battle_count: '10+',
           },
         },
         {
-          name: 'Growlmon (R)',
+          name: 'Piyomon',
           stage: 'Rookie',
-          image: 'https://digi-api.com/images/digimon/w/Growlmon.png',
-          reqs: { min_level: 'Lv. 11', virus_points: '30+ PTS', care_mistakes: '5+ Times' },
+          image: 'https://digi-api.com/images/digimon/w/Piyomon.png',
+          reqs: { virus_points: '30+ PTS', care_mistakes: '5+ Times' },
         },
       ],
     },
   },
   {
     id: 'green',
-    name: 'Forest DigiEgg',
+    name: 'Green DigiEgg',
     image: eggGreen,
     tree: {
       babyI: {
         name: 'Yuramon',
         stage: 'Baby I (Fresh)',
         image: 'https://digi-api.com/images/digimon/w/Yuramon.png',
-        reqs: { min_level: 'Lv. 1', sleep_schedule: 'Perfect', happiness: '70%+' },
+        reqs: { sleep_schedule: 'Perfect', happiness: '70%+' },
       },
       babyII: {
         name: 'Tanemon',
         stage: 'Baby II (In-Training)',
         image: 'https://digi-api.com/images/digimon/w/Tanemon.png',
-        reqs: { min_level: 'Lv. 5', min_speed: '35 SPD', care_mistakes: '0-3 Times' },
+        reqs: { min_speed: '35 SPD', care_mistakes: '0-3 Times' },
       },
       rookies: [
         {
@@ -385,7 +381,6 @@ const digiEggs = ref([
           stage: 'Rookie',
           image: 'https://digi-api.com/images/digimon/w/Palmon.png',
           reqs: {
-            min_level: 'Lv. 10',
             wisdom_score: '50 WIS',
             nature_exp: '120+',
             win_rate: '40%+',
@@ -396,7 +391,6 @@ const digiEggs = ref([
           stage: 'Rookie',
           image: 'https://digi-api.com/images/digimon/w/Lalamon.png',
           reqs: {
-            min_level: 'Lv. 9',
             speed_score: '60 SPD',
             friendship: '85%+',
             care_mistakes: '0-1 Time',
