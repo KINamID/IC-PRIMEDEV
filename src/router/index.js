@@ -1,34 +1,30 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import MainContent from '../views/MainContent.vue'
-import EvolutionTab from '../components/EvolutionTab.vue'
-import StatsTab from '../components/StatsTab.vue'
-import CommunityTab from '../components/CommunityTab.vue'
+import HomeView from '../views/HomeView.vue'
+import DigimonView from '@/views/DigimonView.vue'
+import EvolutionView from '@/views/EvolutionView.vue'
+import CommunityView from '@/views/CommunityView.vue'
+import MoveView from '@/views/MoveView.vue'
 
 const routes = [
   {
     path: '/',
-    component: MainContent,
-    children: [
-      {
-        path: '',
-        redirect: '/evolution',
-      },
-      {
-        path: 'evolution',
-        name: 'Evolution',
-        component: EvolutionTab,
-      },
-      {
-        path: 'stats',
-        name: 'Stats',
-        component: StatsTab,
-      },
-      {
-        path: 'community',
-        name: 'Community',
-        component: CommunityTab,
-      },
-    ],
+    component: HomeView,
+  },
+  {
+    path: '/AllDigimon',
+    component: DigimonView,
+  },
+  {
+    path: '/Evolution',
+    component: EvolutionView,
+  },
+  {
+    path: '/Community',
+    component: CommunityView,
+  },
+  {
+    path: '/Moves',
+    component: MoveView,
   },
 ]
 

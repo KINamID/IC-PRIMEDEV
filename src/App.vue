@@ -1,19 +1,12 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-gray-50">
-    <Header />
-
-    <div class="flex-grow">
-      <MainContent />
-    </div>
-
-    <Footer />
-  </div>
+  <Header />
+  <RouterView />
+  <Footer />
 </template>
 
 <script setup>
-import Header from './layouts/Header.vue'
-import Footer from './layouts/Footer.vue'
-import MainContent from './views/MainContent.vue'
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <style>
