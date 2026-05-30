@@ -91,7 +91,7 @@
               <span class="text-amber-600 font-bold">Tamer</span>, struktur inti data mereka akan
               disusun ulang untuk menembus batas evolusi; mulai dari bentuk terkecil
               <span class="italic">Rookie</span> hingga tingkatan pamungkas
-              <span class="text-amber-500 font-bold">Mega Stage</span>.
+              <span class="text-amber-500 font-bold">Ultimate Stage</span>.
             </p>
           </div>
         </div>

@@ -284,7 +284,6 @@ const fetchByFilter = async (type) => {
       digimonList.value = []
     }
   } catch (err) {
-    console.error(err)
     digimonList.value = []
     error.value = 'Failed to fetch data filter.'
   } finally {
@@ -315,7 +314,6 @@ const handleSearch = async () => {
       digimonList.value = []
     }
   } catch (err) {
-    console.error(err)
     digimonList.value = []
   } finally {
     isLoading.value = false

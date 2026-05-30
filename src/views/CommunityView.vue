@@ -250,8 +250,8 @@ const selectedCategory = ref('All')
 const categories = ref([
   { name: 'Guides', icon: '' },
   { name: 'Events', icon: '' },
-  { name: 'Raids', icon: '' },
-  { name: 'Guilds', icon: '' },
+  { name: 'Secrets', icon: '' },
+  { name: 'Stories', icon: '' },
 ])
 
 const newPost = ref({

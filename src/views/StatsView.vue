@@ -229,7 +229,6 @@ const loadDefaultAgumon = () => {
   fetchDigimonDetail()
 }
 
-// Tambahan Watcher: Membantu reload otomatis jika user berpindah-pindah antar statistik digimon tanpa refresh halaman penuh
 watch(
   () => route.params.id,
   () => {

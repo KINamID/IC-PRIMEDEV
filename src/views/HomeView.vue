@@ -17,9 +17,7 @@ const handleGlobalAutoplay = () => {
     .then(() => {
       removeGlobalListeners()
     })
-    .catch((err) => {
-      console.log('Playback otomatis tertahan oleh kebijakan browser:', err)
-    })
+    .catch((err) => {})
 }
 
 const removeGlobalListeners = () => {
