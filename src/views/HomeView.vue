@@ -8,7 +8,7 @@ import { onMounted, onUnmounted } from 'vue'
 import AboutSection from '@/components/sections/AboutSection.vue'
 import MainContent from '../components/Hero.vue'
 
-const bgm = new Audio('/public/OST.mp3')
+const bgm = new Audio('/OST.mp3')
 bgm.loop = true
 
 const handleGlobalAutoplay = () => {

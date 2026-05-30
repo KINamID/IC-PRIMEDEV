@@ -1,7 +1,7 @@
 <template>
   <div
     class="relative w-full h-screen flex items-center justify-center bg-[#0081d5] bg-no-repeat bg-center overflow-hidden transition-all duration-300"
-    style="background-image: url('/public/Home\ Digimon.jpg'); background-size: cover"
+    style="background-image: url('/Home\ Digimon.jpg'); background-size: cover"
   >
     <div class="absolute inset-0 bg-gradient-to-b from-black/20 via-black/50 to-black/40"></div>
 
