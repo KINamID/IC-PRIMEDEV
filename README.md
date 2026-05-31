@@ -1,44 +1,67 @@
-# IC-PRIMEDEV
+# DigiCenter
 
-This template should help get you started developing with Vue 3 in Vite.
+DigiCenter adalah website katalog Digimon berbasis **Vue.js** dan **Tailwind CSS** yang menggunakan data dari **DAPI: Digimon API**. Website ini dibuat sebagai proyek akhir kelas **Intermediate Front-end Primakara Developers**.
 
-## Recommended IDE Setup
+Website ini membantu user untuk mencari Digimon, melihat detail informasi Digimon, mengeksplorasi evolusi, melihat skill/move, serta membagikan pendapat melalui community section.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Live Demo
 
-## Recommended Browser Setup
+https://digicenter.vercel.app/AllDigimon
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Preview
 
-## Customize configuration
+DigiCenter menampilkan data Digimon secara dinamis menggunakan API eksternal. User dapat menjelajahi berbagai Digimon berdasarkan data yang tersedia dari DAPI.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Fitur Utama
 
-## Project Setup
+### 1. Digimon List
 
-```sh
-npm install
-```
+User dapat melihat daftar Digimon yang diambil langsung dari API. Setiap Digimon ditampilkan dalam bentuk card yang berisi gambar dan nama Digimon.
 
-### Compile and Hot-Reload for Development
+### 2. Digimon Detail
 
-```sh
-npm run dev
-```
+User dapat melihat informasi detail Digimon, seperti:
 
-### Compile and Minify for Production
+- Nama Digimon
+- Gambar Digimon
+- Level
+- Type
+- Attribute
+- Field
+- Description
+- Skill atau move
+- Informasi evolusi
 
-```sh
-npm run build
-```
+### 3. Evolution Path
 
-### Lint with [ESLint](https://eslint.org/)
+Website menyediakan fitur untuk melihat jalur evolusi Digimon. User dapat melihat bentuk evolusi sebelumnya dan evolusi berikutnya dari Digimon yang dipilih.
 
-```sh
-npm run lint
-```
+### 4. Move / Skill Information
+
+User dapat melihat skill atau move yang dimiliki oleh Digimon berdasarkan data yang tersedia dari API.
+
+### 5. Community Section
+
+Website memiliki community section yang memungkinkan user membagikan pendapat, komentar, atau opini terkait Digimon favorit mereka.
+
+### 6. Responsive Design
+
+Website dibuat responsive agar dapat digunakan pada berbagai ukuran layar, mulai dari mobile, tablet, hingga desktop.
+
+## Teknologi yang Digunakan
+
+- Vue.js
+- Vue Router
+- Tailwind CSS
+- Axios
+- DAPI: Digimon API
+- Vercel
+
+## API yang Digunakan
+
+Project ini menggunakan API eksternal dari DAPI.
+
+Base URL:
+
+```txt
+https://digi-api.com/api/v1
