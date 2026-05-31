@@ -8,12 +8,12 @@
           System Overview
         </span>
         <h2
-          class="mt-6 text-3xl sm:text-4xl font-['Orbitron'] font-black tracking-tight text-gray-900 uppercase"
+          class="mt-6 text-3xl sm:text-4xl font-['Space Grotesk'] font-black tracking-tight text-gray-900 uppercase"
         >
           Mengenal Dunia Digital
         </h2>
         <div class="mt-4 h-[2px] w-16 bg-blue-600 mx-auto"></div>
-        <p class="mt-6 text-base sm:text-lg font-['Share_Tech_Mono'] text-gray-500 tracking-wide">
+        <p class="mt-6 text-base sm:text-lg font-['Plus Jakarta Sans'] text-gray-500 tracking-wide">
           Gerbang utama menuju arsip data terlengkap. Pahami entitas makhluk hidup artifisial,
           siklus rekonstruksi matriks, dan ekosistem jaringan tempat mereka berkembang.
         </p>
@@ -23,17 +23,17 @@
         <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           <div class="w-full lg:w-1/2 order-2 lg:order-1">
             <span
-              class="text-xs font-['Share_Tech_Mono'] uppercase tracking-[0.3em] text-blue-500 font-bold block mb-2"
+              class="text-xs font-['Space Mono'] uppercase tracking-[0.3em] text-blue-500 font-bold block mb-2"
             >
               [ Archive Code: 01-MONSTER ]
             </span>
             <h3
-              class="text-2xl sm:text-3xl font-['Orbitron'] font-black text-gray-900 uppercase mb-6 tracking-wide"
+              class="text-2xl sm:text-3xl font-['Space Grotesk'] font-black text-gray-900 uppercase mb-6 tracking-wide"
             >
               Digital Monster
             </h3>
             <p
-              class="text-base font-['Share_Tech_Mono'] text-gray-600 leading-relaxed tracking-wide"
+              class="text-base font-['Plus Jakarta Sans'] text-gray-600 leading-relaxed tracking-wide"
             >
               Sering disebut Digimon, mereka adalah makhluk hidup artifisial unik yang tercipta dari
               akumulasi untaian data komputer. Berbeda dengan program biasa, setiap entitas memiliki
@@ -73,17 +73,17 @@
           </div>
           <div class="w-full lg:w-1/2">
             <span
-              class="text-xs font-['Share_Tech_Mono'] uppercase tracking-[0.3em] text-amber-500 font-bold block mb-2"
+              class="text-xs font-['Space Mono'] uppercase tracking-[0.3em] text-amber-500 font-bold block mb-2"
             >
               [ Archive Code: 02-EVOLUTION ]
             </span>
             <h3
-              class="text-2xl sm:text-3xl font-['Orbitron'] font-black text-gray-900 uppercase mb-6 tracking-wide"
+              class="text-2xl sm:text-3xl font-['Space Grotesk'] font-black text-gray-900 uppercase mb-6 tracking-wide"
             >
               Digivolution
             </h3>
             <p
-              class="text-base font-['Share_Tech_Mono'] text-gray-600 leading-relaxed tracking-wide"
+              class="text-base font-['Plus Jakarta Sans'] text-gray-600 leading-relaxed tracking-wide"
             >
               Sebuah proses rekonstruksi dan peningkatan data secara instan yang memungkinkan
               Digimon bermutasi ke tingkat kekuatan yang lebih tinggi. Melalui stimulasi energi,
@@ -99,17 +99,17 @@
         <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           <div class="w-full lg:w-1/2 order-2 lg:order-1">
             <span
-              class="text-xs font-['Share_Tech_Mono'] uppercase tracking-[0.3em] text-emerald-500 font-bold block mb-2"
+              class="text-xs font-['Space Mono'] uppercase tracking-[0.3em] text-emerald-500 font-bold block mb-2"
             >
               [ Archive Code: 03-ECOSYSTEM ]
             </span>
             <h3
-              class="text-2xl sm:text-3xl font-['Orbitron'] font-black text-gray-900 uppercase mb-6 tracking-wide"
+              class="text-2xl sm:text-3xl font-['Space Grotesk'] font-black text-gray-900 uppercase mb-6 tracking-wide"
             >
               Digital World
             </h3>
             <p
-              class="text-base font-['Share_Tech_Mono'] text-gray-600 leading-relaxed tracking-wide"
+              class="text-base font-['Plus Jakarta Sans'] text-gray-600 leading-relaxed tracking-wide"
             >
               Dimensi paralel virtual yang termanifestasi sepenuhnya di dalam seluruh jaringan
               komunikasi digital bumi. Diatur dan dikendalikan secara rahasia oleh sistem komputer

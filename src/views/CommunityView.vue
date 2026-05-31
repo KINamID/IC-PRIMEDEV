@@ -8,11 +8,11 @@
           Tamer Network
         </span>
         <h2
-          class="mt-4 text-3xl md:text-4xl font-['Orbitron'] font-black tracking-tight text-gray-900 uppercase"
+          class="mt-4 text-3xl md:text-4xl font-['Space Grotesk'] font-black tracking-tight text-gray-900 uppercase"
         >
           Community Forum
         </h2>
-        <p class="text-gray-500 mt-2 text-sm">
+        <p class="text-gray-500 mt-2 text-sm font-['Plus Jakarta Sans'] tracking-wide">
           Exchange intel, strategy guides, and coordinate real-time digital operations.
         </p>
         <div class="mt-3 h-[2px] w-16 bg-blue-600 mx-auto"></div>
@@ -20,7 +20,9 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         <div class="lg:col-span-4 space-y-6">
-          <div class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm">
+          <div
+            class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm font-['Space Mono']"
+          >
             <h3
               class="text-sm font-bold text-blue-600 uppercase tracking-wider mb-4 border-b border-gray-100 pb-2"
             >
@@ -59,7 +61,7 @@
           </div>
 
           <div
-            class="bg-white border border-gray-200 rounded-2xl p-5 text-xs text-gray-500 space-y-3 shadow-sm"
+            class="bg-white border border-gray-200 rounded-2xl p-5 text-xs text-gray-500 space-y-3 shadow-sm font-['Space Mono']"
           >
             <h3
               class="text-sm font-bold text-gray-800 uppercase tracking-wider border-b border-gray-100 pb-2"

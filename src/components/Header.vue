@@ -49,12 +49,12 @@
 
           <div class="flex flex-col text-center md:text-left">
             <span
-              class="text-2xl font-['Orbitron'] font-black tracking-tighter text-gray-900 leading-none group-hover:text-blue-600 transition-colors"
+              class="text-2xl font-['Space Grotesk'] font-black tracking-tighter text-gray-900 leading-none group-hover:text-blue-600 transition-colors"
             >
               DIGICENTER
             </span>
             <span
-              class="text-[10px] font-['Share_Tech_Mono'] uppercase tracking-[0.2em] text-gray-400 leading-none mt-1"
+              class="text-[10px] font-['Space Mono'] uppercase tracking-[0.2em] text-gray-400 leading-none mt-1"
             >
               Tamer Evolution Database
             </span>
@@ -64,7 +64,7 @@
 
       <div class="w-10 h-10 md:hidden pointer-events-none"></div>
 
-      <nav class="hidden md:flex items-center space-x-8 font-['Share_Tech_Mono'] h-full">
+      <nav class="hidden md:flex items-center space-x-8 font-['Space Mono'] h-full">
         <RouterLink
           to="/"
           class="nav-link text-sm font-bold tracking-wider uppercase relative py-2 transition-colors duration-300"

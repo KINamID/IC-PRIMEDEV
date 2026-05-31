@@ -3,12 +3,10 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col items-center gap-10">
         <div class="text-center">
-          <h2 class="text-2xl font-['Orbitron'] font-black tracking-[0.3em] text-gray-800">
+          <h2 class="text-2xl font-['Space Grotesk'] font-black tracking-[0.3em] text-gray-800">
             DIGICENTER
           </h2>
-          <p
-            class="text-[10px] font-['Share_Tech_Mono'] uppercase tracking-[0.4em] text-gray-400 mt-2"
-          >
+          <p class="text-[10px] font-['Space Mono'] uppercase tracking-[0.4em] text-gray-400 mt-2">
             World Portal Digimon
           </p>
         </div>
@@ -22,13 +20,13 @@
             </svg>
           </span>
           <p
-            class="text-sm md:text-base font-['Share_Tech_Mono'] font-bold text-gray-600 tracking-widest text-center uppercase"
+            class="text-sm md:text-base font-['Space Mono'] font-bold text-gray-600 tracking-widest text-center uppercase"
           >
             "TRAIN. FIGHT. AND EVOLVE"
           </p>
         </div>
 
-        <div class="flex flex-wrap justify-center gap-x-12 gap-y-4">
+        <div class="flex font-['Space Mono'] flex-wrap justify-center gap-x-12 gap-y-4">
           <RouterLink
             to="/Evolution"
             class="text-xs font-bold uppercase tracking-widest text-gray-400 hover:text-blue-500 transition-colors"
@@ -49,10 +47,14 @@
         <div
           class="w-full flex flex-col md:flex-row items-center justify-between border-t border-gray-200 pt-8 gap-4"
         >
-          <p class="text-[10px] font-medium text-gray-400 uppercase tracking-widest">
+          <p
+            class="text-[10px] font-['Space Mono'] font-medium text-gray-400 uppercase tracking-widest"
+          >
             DigiCenter 2026 <span class="mx-2">|</span> @KINamGamers
           </p>
-          <p class="text-[10px] text-gray-400 font-bold tracking-widest uppercase">
+          <p
+            class="text-[10px] font-['Space Mono'] text-gray-400 font-bold tracking-widest uppercase"
+          >
             Developed for Primakara Final Project
           </p>
         </div>

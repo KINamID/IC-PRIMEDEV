@@ -29,7 +29,7 @@
       </div>
 
       <p
-        class="text-sm sm:text-base md:text-xl text-white font-['Share_Tech_Mono'] tracking-wide max-w-2xl mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] mb-12"
+        class="text-sm sm:text-base md:text-xl text-white font-['Plus Jakarta Sans'] tracking-wide max-w-2xl mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] mb-12"
       >
         Selamat datang di DigiCenter Hub. Analisis Digimon, telusuri rantai evolusi monster digital,
         dan bangun strategi terbaikmu.

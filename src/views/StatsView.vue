@@ -1,6 +1,6 @@
 <template>
   <section
-    class="py-16 min-h-screen bg-cover bg-center bg-no-repeat relative text-gray-850 font-['Share_Tech_Mono']"
+    class="py-16 min-h-screen bg-cover bg-center bg-no-repeat relative text-gray-850 font-['Space Mono']"
     style="background-image: url('/src/assets/img/background digimon.jpg')"
   >
     <div class="absolute inset-0 bg-white/10 pointer-events-none"></div>
@@ -66,7 +66,7 @@
               ID: #{{ String(digimonDetail.id).padStart(3, '0') }}
             </span>
             <h2
-              class="text-3xl md:text-4xl font-['Orbitron'] font-black text-gray-900 uppercase tracking-tight"
+              class="text-3xl md:text-4xl font-['Space Grotesk'] font-black text-gray-900 uppercase tracking-tight"
             >
               {{ digimonDetail.name }}
             </h2>
@@ -102,7 +102,7 @@
               Profile Digimon
             </h3>
             <p
-              class="text-[13px] text-gray-600 font-sans leading-relaxed text-justify whitespace-pre-line"
+              class="text-[13px] font-['Plus Jakarta Sans'] text-gray-600 font-sans leading-relaxed text-justify whitespace-pre-line"
             >
               {{ digimonDetail.description || 'No digital archive logs found for this entity.' }}
             </p>

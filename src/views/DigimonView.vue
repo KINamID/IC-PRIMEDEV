@@ -11,7 +11,7 @@
           Tamer Terminal
         </span>
         <h2
-          class="mt-4 text-3xl font-['Orbitron'] font-black tracking-tight text-gray-900 uppercase"
+          class="mt-4 text-3xl font-['Space Grotesk'] font-black tracking-tight text-gray-900 uppercase"
         >
           Digimon Database
         </h2>
@@ -19,7 +19,7 @@
       </div>
 
       <div class="bg-blue-600 rounded-xl p-6 shadow-md mb-12 border border-blue-500/30">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-end font-['Share_Tech_Mono']">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-end font-['Space Mono']">
           <div class="md:col-span-5 flex flex-col gap-1.5">
             <label class="text-xs text-blue-100 uppercase tracking-widest font-bold">
               SEARCH
@@ -86,7 +86,7 @@
         </p>
       </div>
 
-      <div v-else-if="error" class="text-center py-20 font-['Share_Tech_Mono']">
+      <div v-else-if="error" class="text-center py-20 font-['Space Mono']">
         <p class="text-red-500 text-base font-bold uppercase tracking-wide mb-4">⚠️ {{ error }}</p>
         <button
           @click="resetFilters"
@@ -99,7 +99,7 @@
       <div v-else>
         <div
           v-if="hasSearched === false"
-          class="flex flex-col items-center justify-center py-12 font-['Share_Tech_Mono']"
+          class="flex flex-col items-center justify-center py-12 font-['Space Mono']"
         >
           <div class="relative w-full max-w-md mx-auto flex flex-col items-center">
             <img
@@ -115,10 +115,7 @@
           </p>
         </div>
 
-        <div
-          v-else-if="digimonList.length === 0"
-          class="text-center py-20 font-['Share_Tech_Mono']"
-        >
+        <div v-else-if="digimonList.length === 0" class="text-center py-20 font-['Space Mono']">
           <p class="text-gray-400 text-sm uppercase tracking-widest">
             No Digimon signals detected in this digital sector.
           </p>
@@ -141,7 +138,7 @@
               />
             </div>
 
-            <div class="w-full text-center font-['Share_Tech_Mono'] mb-4">
+            <div class="w-full text-center font-['Space Mono'] mb-4">
               <div
                 v-if="digimon.level || digimon.attribute"
                 class="flex items-center justify-center gap-1 mb-2 flex-wrap"
@@ -173,7 +170,7 @@
 
             <RouterLink
               :to="`/Stats/${digimon.name}`"
-              class="block text-center w-full py-2 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white text-xs font-bold rounded-xl transition-colors uppercase font-['Share_Tech_Mono'] tracking-wider border border-blue-500"
+              class="block text-center w-full py-2 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white text-xs font-bold rounded-xl transition-colors uppercase font-['Space Mono'] tracking-wider border border-blue-500"
             >
               View Stats
             </RouterLink>
